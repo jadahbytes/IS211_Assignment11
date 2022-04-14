@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Error - Invalid Input</title>
+	<style>
+		html * {
+			background-image: url('https://media4.giphy.com/media/myqW4XYBkh0UOIIcCb/giphy.gif?cid=6c09b95273c4b5827e1f6daccb8add93a1117b24f3fd5b5e&rid=giphy.gif&ct=s');
+			background-repeat: no-repeat;
+  		background-attachment: fixed;
+  		background-position: center;
+			font-family: "Impact";
+			font-weight: bolder;
+			letter-spacing: 3px;
+			font-size: 35px;
+			text-align: center;
+		}
+		.button {
+ 	  background-color: #c2fbd7;
+ 	  border-radius: 100px;
+ 	  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+ 	  color: green;
+ 	  cursor: pointer;
+ 	  display: inline-block;
+ 	  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+ 	  padding: 7px 20px;
+ 	  text-align: center;
+ 	  text-decoration: none;
+ 	  transition: all 250ms;
+ 	  border: 0;
+ 	  font-size: 16px;
+ 	  user-select: none;
+ 	  -webkit-user-select: none;
+ 	  touch-action: manipulation;
+ 	}
+
+ 	.button:hover {
+ 	  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+ 	  transform: scale(1.05) rotate(-1deg);
+ 	}
+	</style>
+</head>
+
+<body>
+	<p> <em> Error! Please input a valid email, and ensure you've chosen a priority level! </em> </p>
+
+	<form action="/redirect">
+	        <table>
+	        <tr>
+	            <td rowspan="2"><button class="button" type="submit" value="Return to List">Return to List</td>
+	        </tr>
+	    </table>
+	</form>
+</body>
+</html>
